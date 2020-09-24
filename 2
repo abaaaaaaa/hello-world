@@ -1,0 +1,15 @@
+print('3개 과목의 시험 점수를 차례대로 입력하세요!')
+kor=int(input('국어 : '))
+eng=int(input('영어 : '))
+mat=int(input('수학 : '))
+print('===============\n= 시험 점수 결과=\n===============')
+print('* 국어 점수 : ',kor)
+print('* 영어 점수 : ',eng)
+print('* 수학 점수 : ',mat)
+print('===============')
+kor+=eng
+kor+=mat
+print('* 총 합계 점수 :',kor)
+kor/=3
+print('* 평균 점수 :',round(kor, 2))
+print('===============')
